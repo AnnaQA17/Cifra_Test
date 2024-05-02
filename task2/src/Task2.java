@@ -9,8 +9,8 @@ public class Task2 {
 
     public static void main(String[] args) {
         // чтение данных
-        String circlePath = args[0]; // D:\Projects\repositories\Cifra_Test\task2\src\task2_circle.txt
-        String pointsPath = args[1]; // D:\Projects\repositories\Cifra_Test\task2\src\task2_points.txt
+        String circlePath = args[0]; // D:\Projects\repositories\Cifra_Test\task2\task2_circle.txt
+        String pointsPath = args[1]; // D:\Projects\repositories\Cifra_Test\task2\task2_points.txt
 
         List<String> linesCircleFile = readFile(circlePath);
         List<String> linesPointsFile = readFile(pointsPath);
